@@ -6,4 +6,5 @@ Object.defineProperty(exports, "__esModule", { value: true });
 __export(require("./isFunction"));
 __export(require("./forIn"));
 __export(require("./isObject"));
+__export(require("./nullObject"));
 //# sourceMappingURL=index.js.map
