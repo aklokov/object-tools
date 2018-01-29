@@ -1,8 +1,8 @@
-import { expect } from 'chai';
-import { nullObject } from '../src';
+import { expect } from "chai";
+import { nullObject } from "../src";
 
-describe('nullObject', function (): void {
-  it('should not have "constructor" field', function (): void {
+describe("nullObject", function (): void {
+  it("should not have 'constructor' field", function (): void {
     // arrange
 
     // act

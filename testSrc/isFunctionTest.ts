@@ -1,8 +1,8 @@
-import { expect } from 'chai';
-import { isFunction } from '../src';
+import { expect } from "chai";
+import { isFunction } from "../src";
 
-describe('isFunction', function (): void {
-  it('should return true for function', function (): void {
+describe("isFunction", function (): void {
+  it("should return true for function", function (): void {
     // arrange
     function a(): void { return null; }
     // act
@@ -12,7 +12,7 @@ describe('isFunction', function (): void {
     expect(result).to.be.equal(true);
   });
 
-  it('should return true for object method', function (): void {
+  it("should return true for object method", function (): void {
     // arrange
     const a = {};
 
@@ -23,7 +23,7 @@ describe('isFunction', function (): void {
     expect(result).to.be.equal(true);
   });
 
-  it('should return true for lambda', function (): void {
+  it("should return true for lambda", function (): void {
     // arrange
 
     // act
@@ -33,7 +33,7 @@ describe('isFunction', function (): void {
     expect(result).to.be.equal(true);
   });
 
-  it('should return false for object', function (): void {
+  it("should return false for object", function (): void {
     // arrange
 
     // act
@@ -43,7 +43,7 @@ describe('isFunction', function (): void {
     expect(result).to.be.equal(false);
   });
 
-  it('should return false for null', function (): void {
+  it("should return false for null", function (): void {
     // arrange
 
     // act

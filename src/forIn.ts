@@ -1,4 +1,4 @@
-import { isFunction } from './isFunction';
+import { isFunction } from "./isFunction";
 
 export function forIn<T>(src: { [id: string]: T; }, func: (item: T, field: string) => void): void;
 export function forIn(src: any, func: (item: any, field: string) => void): void;

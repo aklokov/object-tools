@@ -1,1 +1,1 @@
-export declare function nullObject(): any;
+export declare function nullObject<T = any>(): T;
