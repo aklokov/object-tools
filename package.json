@@ -1,5 +1,5 @@
 {
-  "name": "object-tools-ts",
+  "name": "@vlr/object-tools",
   "version": "1.0.2",
   "description": "Set of DRY tools to work with object. Typescript style.",
   "files": [
@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/repinvv/object-tools-ts.git"
+    "url": "git+https://github.com/repinvv/object-tools.git"
   },
   "devDependencies": {
     "@types/chai": "^4.0.10",
