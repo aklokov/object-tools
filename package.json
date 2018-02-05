@@ -1,6 +1,6 @@
 {
   "name": "@vlr/object-tools",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Set of DRY tools to work with object. Typescript style.",
   "files": [
     "build/src",
