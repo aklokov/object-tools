@@ -7,4 +7,6 @@ __export(require("./isFunction"));
 __export(require("./forIn"));
 __export(require("./isObject"));
 __export(require("./nullObject"));
+__export(require("./isNumber"));
+__export(require("./isString"));
 //# sourceMappingURL=index.js.map

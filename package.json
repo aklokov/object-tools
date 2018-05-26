@@ -1,12 +1,12 @@
 {
   "name": "@vlr/object-tools",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Set of DRY tools to work with object. Typescript style.",
   "files": [
     "build/src",
-	"index.js",
-	"index.js.map",
-	"index.d.ts"
+    "index.js",
+    "index.js.map",
+    "index.d.ts"
   ],
   "main": "index.js",
   "typings": "index",
